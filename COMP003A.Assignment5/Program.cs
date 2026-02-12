@@ -6,7 +6,12 @@ namespace COMP003A.Assignment5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ProgramIntroduction();
+        }
+
+        static void ProgramIntroduction()
+        {
+            Console.WriteLine("Welcome to the 5th assignment!");
         }
     }
 }
