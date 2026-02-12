@@ -14,6 +14,9 @@ namespace COMP003A.Assignment5
             int numA = int.Parse(Console.ReadLine());
             UserInputHandling(name, numA);
 
+            int numDouble = CalculationLogic(numA);
+            Console.WriteLine($"\n{numA} doubled is {numDouble}");
+
 
         }
 
@@ -25,6 +28,11 @@ namespace COMP003A.Assignment5
         static void UserInputHandling(string name, int number)
         {
             Console.WriteLine($"Name: {name}, Number: {number}");
+        }
+
+        static int CalculationLogic(int number)
+        {
+            return number * 2;
         }
     }
 }
