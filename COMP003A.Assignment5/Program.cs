@@ -17,7 +17,14 @@ namespace COMP003A.Assignment5
             int numDouble = CalculationLogic(numA);
             Console.WriteLine($"\n{numA} doubled is {numDouble}");
 
-
+            if ( numDouble > 50)
+            {
+                Console.WriteLine($"{numDouble} is greater than 50");
+            }
+            else
+            {
+                Console.WriteLine($"{numDouble} is not greater than 50");
+            }
         }
 
         static void ProgramIntroduction()
